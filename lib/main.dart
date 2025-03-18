@@ -138,7 +138,7 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
         alignment: Alignment.center,
         child: const Text(
-          "Swipe Left or Right to Change Background",
+          "Swipe Left or Right",
           style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
         ),
       ),
@@ -154,9 +154,9 @@ class _HomeScreenState extends State<HomeScreen> {
           Padding(
             padding: const EdgeInsets.all(16.0),
             child: Image.asset(
-              "assets/music.jpg",
-              width: 130,
-              height: 130,
+              "assets/musicc.jpg",
+              width: 150,
+              height: 150,
             ),
           ),
           const Text(
@@ -200,7 +200,7 @@ class _HomeScreenState extends State<HomeScreen> {
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(12),
       ),
-      backgroundColor: Colors.deepPurpleAccent,
+      backgroundColor: Colors.black,
       foregroundColor: Colors.white,
     );
   }
